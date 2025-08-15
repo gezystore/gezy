@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GezyStore</title>
+    <meta name="description"
+        content="Halaman profil resmi Muhammad Gezy Store, seorang pengembang web dari Serang, Indonesia. Jelajahi portofolio proyek dan keahlian di HTML, CSS, JavaScript, dan lainnya.">
+    <meta name="keywords"
+        content="Gezy Store, web developer, frontend developer, backend developer, Makassar, portofolio, HTML, CSS, JavaScript, React, Node.js, UI/UX, GezyHost">
+    <meta name="author" content="Giaza Fakusna Maulana">
+
+    <link rel="icon" type="image/png" href="Gezy.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-effects">
+        <canvas id="particles-js"></canvas>
+        <div class="quantum-waves"></div>
+        <div class="binary-rain" id="binaryRain"></div>
+        <div class="space-element tesseract">
+            <svg viewBox="0 0 100 100">
+                <path d="M50,0 L100,50 L50,100 L0,50 Z" stroke="rgba(255,255,255,0.1)" fill="none" stroke-width="1" />
+                <path d="M25,25 L75,25 L75,75 L25,75 Z" stroke="rgba(255,255,255,0.1)" fill="none" stroke-width="1" />
+                <line x1="25" y1="25" x2="50" y2="0" stroke="rgba(255,255,255,0.1)" stroke-width="0.5" />
+                <line x1="75" y1="25" x2="100" y2="50" stroke="rgba(255,255,255,0.1)" stroke-width="0.5" />
+                <line x1="75" y1="75" x2="50" y2="100" stroke="rgba(255,255,255,0.1)" stroke-width="0.5" />
+                <line x1="25" y1="75" x2="0" y2="50" stroke="rgba(255,255,255,0.1)" stroke-width="0.5" />
+            </svg>
+        </div>
+        <div class="space-element wireframe-sphere">
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" stroke="rgba(255,255,255,0.1)" fill="none" stroke-width="0.5" />
+                <path d="M50,5 A45,45 0 0,1 50,95 A45,45 0 0,1 50,5" stroke="rgba(255,255,255,0.1)" fill="none"
+                    stroke-width="0.5" />
+                <path d="M50,5 A45,45 0 0,0 50,95 A45,45 0 0,0 50,5" stroke="rgba(255,255,255,0.1)" fill="none"
+                    stroke-width="0.5" />
+                <path d="M5,50 A45,45 0 0,1 95,50" stroke="rgba(255,255,255,0.1)" fill="none" stroke-width="0.5" />
+            </svg>
+        </div>
+    </div>
+
+    <main class="container">
+        <section class="profile-card" data-aos="fade-up" data-aos-duration="1000">
+            <div class="profile-img-container" data-aos="zoom-in" data-aos-delay="200">
+                <img src="Gezy.jpg" alt="Foto profil Muhammad Gezy Store, pengembang web dan kreator digital"
+                    class="profile-img">
+            </div>
+            <h1 class="name" data-aos="fade-up" data-aos-delay="400">GezyStore</h1>
+            <p class="tagline" data-aos="fade-up" data-aos-delay="500">GezyStore.web.id</p>
+            <p class="bio" data-aos="fade-up" data-aos-delay="600">Halo dan selamat datang di halaman pribadi saya! Saya
+                Giaza Fakusna Maulana, Anda bisa memanggil saya Gezy. Berasal dari Makassar, Sulawesi
+                Selatan, Indonesia, saya adalah seorang pengembang web yang bersemangat dalam
+                menciptakan solusi digital yang inovatif dan efisien. Saya memiliki pengalaman dalam membangun berbagai
+                jenis website, termasuk platform e-commerce (seperti GezyHost), situs perusahaan, hingga aplikasi web
+                dinamis. Dengan fokus pada desain responsif dan pengalaman pengguna yang optimal, saya berdedikasi untuk
+                mengubah ide menjadi realitas digital yang fungsional dan menarik.</p>
+
+            <div class="social-links" data-aos="fade-up" data-aos-delay="700">
+                <a href="https://youtube.com/@geyzawhy?" class="social-link" target="_blank"
+                    title="YouTube Channel" rel="noopener noreferrer"
+                    aria-label="Kunjungi profil YouTube GezyStore"><i class="fab fa-youtube"></i></a>
+                    
+                <a href="https://whatsapp.com/channel/0029Vb72mQ1LCoX3Gh894J0J" class="social-link" target="_blank"
+                    title="WhatsApp Channel" rel="GezyStore"
+                    aria-label="Bergabung dengan WhatsApp Channel GezyStore"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://github.com/gezystore" class="social-link" target="_blank" title="GitHub Profile"
+                    rel="noopener noreferrer" aria-label="Kunjungi profil GitHub GezyStore"><i
+                        class="fab fa-github"></i></a>
+            </div>
+        </section>
+
+        <section class="skills-section" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <h2 class="section-title">Keahlian Saya</h2>
+            <div class="skills-grid">
+                <div class="skill-item" data-skill="HTML" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item" data-skill="CSS" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item" data-skill="JavaScript" data-aos="zoom-in" data-aos-delay="500">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="skill-item" data-skill="Node.js" data-aos="zoom-in" data-aos-delay="700">
+                    <i class="fab fa-node-js"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="skill-item" data-skill="MongoDB" data-aos="zoom-in" data-aos-delay="800">
+                    <i class="fas fa-database"></i>
+                    <span>MongoDB</span>
+                </div>
+                <div class="skill-item" data-skill="Git" data-aos="zoom-in" data-aos-delay="900">
+                    <i class="fab fa-git-alt"></i>
+                    <span>Git & GitHub</span>
+                </div>
+                <div class="skill-item" data-skill="UI/UX Design" data-aos="zoom-in" data-aos-delay="1000">
+                    <i class="fas fa-bezier-curve"></i>
+                    <span>UI/UX Design</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Gezy Store. Hak Cipta Dilindungi Undang-Undang.</p>
+        <p>Dibuat dengan <i class="fas fa-heart"></i> untuk dunia digital.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            mirror: false
+        });
+    </script>
+    <script src="main.js"></script>
+    <script src="particles.js"></script>
+</body>
+
+</html>
